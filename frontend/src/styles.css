@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+@font-face {
+    font-family: shabnam;
+    src: url('./assets/fonts/shabnam/Shabnam.ttf');
+    src: url('./assets/fonts/shabnam/Shabnam.eot');
+    src: url('./assets/fonts/shabnam/Shabnam.woff');
+}
+@font-face {
+    font-family: shabnamBold;
+    src: url('./assets/fonts/shabnam/Shabnam-Bold.ttf');
+}
+@font-face {
+    font-family: shabnamThin;
+    src: url('./assets/fonts/shabnam/Shabnam-Thin.ttf');
+    src: url('./assets/fonts/shabnam/Shabnam-Thin.eot');
+    src: url('./assets/fonts/shabnam/Shabnam-Thin.woff');
+}
+@font-face {
+    font-family: sfpdheavy;
+    src: url('./assets/fonts/sf/pro/SF-Pro-Display-Heavy.otf');
+}
+@font-face {
+    font-family: sfProDMedium;
+    src: url('./assets/fonts/sf/pro/SF-Pro-Display-Medium.otf');
+}
+@font-face {
+    font-family: sfProDisLight;
+    src: url('./assets/fonts/sf/SFUIDisplay/SFUIDisplay-Light.ttf');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: shabnam;
+}
+
+body {
+    width: 100%;
+    background-color: #151515;
+    color: #fff;
+}
+
+main {
+    min-height: 100vh;
+}
+
+a, button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0288e0;
+    font-family: shabnam;
+}
+#button {
+    font-family: shabnam;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    color: #fff;
+    transition: .4s;
+    outline: 1px solid #222;
+}
+textarea {
+    resize: none;
+}
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    appearance:none;
+    margin:0
+}
+input:focus {
+    outline: 1px solid #333;
+}

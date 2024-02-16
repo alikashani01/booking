@@ -1,0 +1,21 @@
+#btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 250px;
+    height: 65px;
+    background: #0003;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+}
+#btn {
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    height: 65px;
+}
+
+#btn > * {
+    position: relative;
+    z-index: 1;
+}
